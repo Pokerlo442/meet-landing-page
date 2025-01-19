@@ -326,5 +326,8 @@ body{
   .footer-container{
     grid-template-columns: 1fr;
     text-align: center;
+    background-image: linear-gradient(hsl(192,37%, 48%, .8), 
+    hsla(192, 37%, 48%, 0.8)),url(./starter-code/assets/mobile/image-footer.jpg) ;
+
   }
 }
