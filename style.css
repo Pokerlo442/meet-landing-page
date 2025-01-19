@@ -90,6 +90,12 @@ body{
 .btn_footer{
   width:max-content; 
 }
+.btn_main:hover, .btn_main:focus{
+  background-color: #71C0D4;
+}
+.btn_secondary:hover, .btn_secondary:focus{
+  background-color: #B18BDD;
+}
 /* /////////////7// */
     /* Container */
 /* /////////////7// */
@@ -98,8 +104,7 @@ body{
   margin-top: 5rem;
 }
 .header-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   justify-items: center;  
   gap: var(--sp-big-900);
   justify-content: center;
@@ -252,8 +257,9 @@ body{
  /*  Media queris */
 /* /////////////7// */
 
-@media (max-width:91em){
+@media (max-width:89em){
     .header-container{
+      display: grid;
       grid-template-columns: 1fr 1fr;
       margin-inline: auto;
       gap: 1rem;
