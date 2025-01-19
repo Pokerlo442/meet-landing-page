@@ -53,7 +53,6 @@
 
 body{
   font-family: "Red Hat Display", serif;
-  background-color: var(--clr-slate-300);
 }
 
 .flex{
@@ -119,7 +118,7 @@ body{
   padding: 1rem;
   text-align: center;  
   margin:auto;
-  width:500px;
+  width:540px;
 }
 .random{
   margin-top: var(--sp-big-900);
@@ -268,6 +267,7 @@ body{
     }
     .text-container{
       grid-area: 3 / 1 /span 3 / span 2;
+      width: initial;
     }
     .img-carousel{
       gap:1.5rem;
@@ -315,6 +315,7 @@ body{
   }
   .text-container{
     grid-area: 3 / 1 /span 3 / span 2;
+    width: initial;
   }
   .img-carousel{
     display: grid;
